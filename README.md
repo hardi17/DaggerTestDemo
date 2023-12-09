@@ -12,13 +12,13 @@ simple dagger demo with Application class.
 - In this examle how to set up dagger in your Android project from the scratch.
 - How to impement Dagger into Project?
   
- 	- (1) Add plugin into App -> build.gradle file, add this line
+ 	- Add plugin into App -> build.gradle file, add this line
     	
     		 plugins {
     			    id 'kotlin-kapt'
     			 }
  
-	- (2) Add dagger dependency App -> build.gradle file
+	- Add dagger dependency App -> build.gradle file
    
    		  dependencies {
        		  -------
@@ -26,5 +26,5 @@ simple dagger demo with Application class.
       		 implementation "com.google.dagger:dagger:2.42"
        		 kapt "com.google.dagger:dagger-compiler:2.42"
    	       }
-    - Use updated dagger version.
+   	 - Use updated dagger version.
 
