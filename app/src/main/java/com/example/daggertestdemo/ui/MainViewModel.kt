@@ -8,7 +8,8 @@ import javax.inject.Singleton
 @ActivityScope
 class MainViewModel @Inject constructor(
     private val dummyName1 : HelloDagger,
-    private val dummyName2 : HelloDagger
+    private val dummyName2 : HelloDagger,
+    private val aValue : HelloDagger
 ) {
 
     fun getHashCode() : String {
@@ -19,4 +20,13 @@ class MainViewModel @Inject constructor(
     fun getName() : String{
         return "Name : " + dummyName1.getDummyName()
     }
+
+    fun getAdditionVal() : Int{
+        return aValue.add()
+     }
+
+    fun getMultiplicationVal() : Int{
+        return aValue.multiply()
+     }
+
 }

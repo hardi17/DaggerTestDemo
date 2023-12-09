@@ -17,5 +17,6 @@ interface ApplicationComponent {
     @ApplicationContext
     fun getContext() :Context
 
-    fun getDummyText() : HelloDagger
+    fun getHelloDagger() : HelloDagger
+
 }

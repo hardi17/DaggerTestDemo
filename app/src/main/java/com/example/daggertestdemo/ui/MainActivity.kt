@@ -28,6 +28,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.tvDummy.text = viewModel.getName()
         binding.tvDummy2.text = viewModel.getHashCode()
+        binding.tvAdd.text = "Addition is : " + viewModel.getAdditionVal()
+        binding.tvMultiply.text = "Multiplication is : " + viewModel.getMultiplicationVal()
     }
 
     private fun getDependencies() {

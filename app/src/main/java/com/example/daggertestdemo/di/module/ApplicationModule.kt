@@ -4,6 +4,7 @@ import android.content.Context
 import com.example.daggertestdemo.MyApplication
 import com.example.daggertestdemo.di.ActivityContext
 import com.example.daggertestdemo.di.ApplicationContext
+import com.example.daggertestdemo.di.DummyIntValue
 import com.example.daggertestdemo.di.DummyValue
 import dagger.Module
 import dagger.Provides
@@ -20,7 +21,13 @@ class ApplicationModule(private val application: MyApplication){
    @Provides
    @DummyValue
    fun provideDummyName() : String{
-       return "Welcome Dagger"
+       return "Welcome to Dagger"
    }
+
+    @Provides
+    @DummyIntValue
+    fun provideDummyIntValue() : Int {
+        return 4
+    }
 
 }
