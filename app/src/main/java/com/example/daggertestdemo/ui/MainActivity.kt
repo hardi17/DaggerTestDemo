@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         binding.tvDummy2.text = viewModel.getHashCode()
         binding.tvAdd.text = "Addition is : " + viewModel.getAdditionVal()
         binding.tvMultiply.text = "Multiplication is : " + viewModel.getMultiplicationVal()
+        binding.tvDiv.text = "Division is : " + viewModel.getDivision()
     }
 
     private fun getDependencies() {

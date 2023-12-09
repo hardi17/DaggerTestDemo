@@ -29,4 +29,8 @@ class MainViewModel @Inject constructor(
         return aValue.multiply()
      }
 
+    fun getDivision() : Int{
+        return aValue.division()
+     }
+
 }
