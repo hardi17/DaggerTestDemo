@@ -5,7 +5,7 @@ Dagger :
 -> Ease of unit test and reusable code.
 
 simple dagger demo with Application class.
-- Intention to made this tutorial to help you who wants to take the baby steps like me :-) 
+- Intention to made this tutorial to help you who wants to take the baby step to learn dagger in kotlin :-) 
 - In this examle how to set up dagger in your Android project from the scratch.
 - How to impement Dagger into Project?
 
