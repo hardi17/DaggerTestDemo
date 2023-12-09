@@ -1,4 +1,4 @@
-# MiniDaggerDemo
+# MiniCalcWithDagger
 Using,
 - Kotlin
 - Viewbinding
@@ -18,7 +18,7 @@ simple dagger demo with Application class.
     			    id 'kotlin-kapt'
     			 }
  
-	- Add dagger dependency App -> build.gradle file
+	- Add dagger dependency App -> build.gradle file [Use updated dagger version]
    
    		  dependencies {
        		  -------
@@ -26,5 +26,15 @@ simple dagger demo with Application class.
       		 implementation "com.google.dagger:dagger:2.42"
        		 kapt "com.google.dagger:dagger-compiler:2.42"
    	       }
-   	 - Use updated dagger version.
 
+## Contributing to Learn Dagger in kotlin
+
+Just make pull request. You are in!
+
+Thanks
+
+Hardi Rachh
+
+You can connect with me on:
+
+- Github : https://www.linkedin.com/in/hardi-r/
