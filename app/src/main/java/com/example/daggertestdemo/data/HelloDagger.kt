@@ -25,4 +25,8 @@ class HelloDagger @Inject constructor(
     fun multiply() : Int{
         return aValue * aValue
     }
+
+    fun division() : Int{
+        return aValue / aValue
+    }
 }
