@@ -1,4 +1,6 @@
-# DaggerTestDemo
+# MiniDaggerDemo
+Kotlin
+Viebinding
 Dagger:
 -  Dagger is one of the DI libraries that is created by "Square" and maintaining by Google.
 -  It is managing and creating graph of dependencies for you.
